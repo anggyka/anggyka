@@ -1,0 +1,47 @@
+body{
+	background: url(../img/images4.jpg);
+    margin: 0;
+    padding: 0;
+}
+#login{
+    max-width: 340px;
+    margin:100px auto;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px #aaa;
+}
+#login h2{
+    text-align: center;
+    padding: 25px 10px;
+    background: #333;
+    color: #b0b0bc;
+}
+fieldset{
+    margin: 0;
+    border: none;
+}
+form{
+    padding: 0;
+    margin: 0;
+    padding: 15px;
+}
+input[type='text'],
+input[type="password"]{
+    width: 90%;
+    padding: 1em;
+    margin-top: 1.2em;
+    color: #888;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 1.4em;
+    margin: 1.5em 0;
+    color: #888;
+    background-color:#00cdb1 ;
+    border:none;
+    color:#eee;
+    border-bottom: 4px solid transparent;
+}
+input[type="submit"]:hover{
+    opacity: 0.8;
+    border-color: #00adb1;
+}

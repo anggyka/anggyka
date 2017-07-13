@@ -1,0 +1,212 @@
+.wrap{
+	background: none;
+	width: auto;
+	margin: auto;
+}
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: #333333;
+	/*#5f6975*/
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+}
+ 
+.wrap .menu ul ul {
+display: none;
+}
+
+.wrap .menu ul li:hover > ul {
+ display: block;
+}
+.wrap .menu ul {
+	float: right;
+ background: #333333;
+ padding: 0;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+}
+.wrap .menu ul:after {
+ content: ""; clear: both; display: block;
+}
+.wrap .menu ul li {
+ float: left;
+}
+.wrap .menu ul li:hover {
+ background: #333333;
+}
+.wrap .menu ul li:hover a {
+ color: #FF5151;
+}
+
+.wrap .menu ul li a {
+ display: block; padding: 15px 40px;
+ color: white; text-decoration: none;
+}
+.wrap .menu ul ul {
+ background: #333333; border-radius: 0px; padding: 0;
+ position: absolute; top: 100%;
+}
+.wrap .menu ul ul li {
+ float: none;
+ border-top: 5px solid #6b727c;
+ border-bottom: 5px solid #575f6a;
+ position: relative;
+}
+.wrap .menu ul ul li a {
+ padding: 10px 20px;
+ color: #fff;
+} 
+.wrap .menu ul ul li a:hover {
+ background: #4b545f;
+}
+
+.wrap .menu ul ul ul {
+ position: absolute; left: 100%; top:0;
+}
+ 
+.wrap .menu nav ul ul {
+display: none;
+}
+
+.wrap .menu nav ul li:hover > ul {
+ display: block;
+}
+.wrap .menu nav ul {
+	font-size:19px;
+	float: none;
+ background: #333333;
+ padding: 0;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+}
+.wrap .menu nav ul:after {
+ content: ""; clear: both; display: block;
+}
+.wrap .menu nav ul li {
+ float: left;
+}
+.wrap .menu nav ul li:hover {
+ background: ;
+}
+.wrap .menu nav ul li:hover a {
+ color: #FF5151;
+}
+
+.wrap .menu nav ul li a {
+ text-align:center;
+ display: block; padding: 15px;
+ width:300px;
+ color: white; text-decoration: none;
+}
+.wrap .menu nav ul ul {
+ background: #333333; border-radius: 0px; padding: 0;
+ position: absolute; top: 100%;
+}
+.wrap .menu nav ul ul li {
+ float: none;
+ border-top: 5px solid #6b727c;
+ border-bottom: 5px solid #575f6a;
+ position: relative;
+}
+.wrap .menu nav ul ul li a {
+ padding: 15px;
+ width:110px;
+ color: #fff;
+} 
+.wrap .menu nav ul ul li a:hover {
+ background: #4b545f;
+}
+
+.wrap .menu nav ul ul ul {
+ position: absolute; left: 100%; top:0;
+}
+
+/*akhir menu*/
+ 
+body{
+	background: url(images4.jpg);
+	background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#login{
+    max-width: 650px;
+    margin:100px auto;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px #aaa;
+	padding: 10px;
+}
+#login h2{
+    text-align: center;
+    padding: 25px 50px;
+    background:#f9f9f9;
+    color: #999;
+}
+.border-p{
+    border-top: 1px solid #888;
+    margin: 10px 10px;
+}
+fieldset{
+    margin: 0;
+    border: none;
+}
+form{
+    padding: 0;
+    margin: 0;
+    padding: 15px;
+}
+
+
+input[type='text'],
+input[type="password"]{
+    width: 90%;
+    padding: 1em;
+    margin-top: 1.2em;
+    color: #888;
+}
+input[type="email"]{
+    width: 90%;
+    padding: 1em;
+    margin-top: 1.2em;
+    color: #888;
+}
+textarea[type="text"]{
+    width: 90%;
+    padding: 1em;
+    margin-top: 1.2em;
+    color: #888;
+}
+
+input[type="submit"]{
+    width: 20%;
+    padding: 1em;
+    margin: 1.5em 0;
+    color: #888;
+    background-color:#00cdb1 ;
+    border:none;
+    color:#eee;
+    border-bottom: 4px solid transparent;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.8;
+    border-color: #00adb1;
+}
+
+input[type="reset"]{
+    width: 20%;
+    padding: 1em;
+    margin: 1.5em 0;
+    color: #888;
+    background-color:#F33;
+    border:none;
+    color:#eee;
+    border-bottom: 4px solid transparent;
+}

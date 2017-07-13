@@ -1,0 +1,249 @@
+html, body { margin: 0; padding: 0; font-family: arial}
+
+.header {
+	background-color: #2a333b;
+	height: 55px;
+}
+.header-box {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 14px;
+}
+.header-logo {
+	color: white;
+	float: left;
+	width: 400px;
+}
+.header-logo a { color: white; text-decoration: none }
+.header-logo a:hover { color: #40aae6; }
+
+.header-nav {
+	color: white;
+	float: right;
+}
+.header-nav a { color: white; text-decoration: none }
+.header-nav a:hover { color: #40aae6; }
+.header-nav ul {
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+}
+.header-nav li { float: left; padding-left: 50px; }
+
+/*=========*/
+.content {
+	background-color: #f0f0fb;
+	height: 300px;
+}
+.content-box {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.content-image {
+	width: 391px;
+	height: 200px;
+	background-image: url('img/galon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+.content-description {
+	width: 400px;
+	float: right;
+}
+.content-desc-title {
+	font-size: 36px;
+	font-weight: bold;
+	color: #2a333b;
+}
+.content-desc-sub {
+	font-size: 24px;
+	font-weight: bold;
+	color: #40aae6;
+}
+.content-desc-desc {
+	font-size: 14px;
+	font-weight: bold;
+	color: #2a333b;
+	margin-bottom: 30px;
+}
+.content-desc-button {
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	padding: 10px 50px;
+	background-color: #40aae6;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.content-desc-button:hover {
+	background-color: #3185b5;
+}
+
+/*============*/
+
+.extra {
+	background-color: #40aae6;
+}
+.extra-box {
+	width: 1000px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	background-color: 
+}
+.extra-call-label {
+	padding-top: 50px;
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+.extra-call-phone {
+	padding-top: 0px;
+	font-size: 48px;
+	color: white;
+	text-align: center;
+}
+.extra-call-phone {
+	padding-top: 50px;
+	font-size: 48px;
+	color: white;
+	text-align: center;
+}
+.extra-call-desc {
+	padding-top: 50px;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+
+/*=============*/
+
+.kategori img{
+	box-shadow: inset 1px 1px 10px black;
+	height: 400px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1225px;}
+.kategori-box {
+	width: 1000px;
+	margin: 0 auto;
+}
+.kategori-title {
+	font-size: 46px;
+	font-weight: bold;
+	text-align: left;
+	color: #40aae6;
+}
+.kategori-desc {
+	font-size: 26px;
+	text-align: justify;
+	margin-bottom:50px;
+}
+
+/*=============*/
+
+.grid {
+	background-color: white;
+}
+.grid-box {
+	width: 900px;
+	height: 330px;
+	margin: 0 auto;
+}
+.grid-tile {
+	width: 200px;
+	margin: 40px;
+	padding: 0px 10px 50px 10px;
+	float: left;
+}
+.grid-tile img {
+	width: 150px;
+	height: 150px;
+	padding-left: 25px;
+	margin: 0 auto;
+}
+.grid-image {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+.grid-title {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #40aae6;
+}
+.grid-desc {
+	font-size: 14px;
+	text-align: center;
+}
+/*=============*/
+
+.footer {
+	background: #2a333b;
+}
+.footer-box {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px;
+}
+.footer-text {
+	text-align: center;
+	font-size: 11px;
+	color: white;
+}
+
+
+/*===========================================================*/
+
+.login-wrapper {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	box-shadow: 0px 1px 5px grey;
+}
+.login-header {
+	background-color: #2a333b;
+	padding: 20px;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.login-header a {
+	text-decoration: none;
+	color: red;
+}
+
+
+.login-content {
+	padding: 20px;
+	font-size: 12px;
+}
+.span-inp {
+	width: 200px;
+}
+.log-inp {
+	padding: 5px;
+	width: 245px;
+	margin-bottom: 20px;
+}
+input[type='submit'] {
+	padding: 8px 50px;
+	border: none;
+	background-color: #40aae6;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.notif {
+	padding-top: 10px;
+	width: 100%;
+	float: left;
+}
